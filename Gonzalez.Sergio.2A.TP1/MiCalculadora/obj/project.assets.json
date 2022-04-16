@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
+      "projectUniqueName": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
       "projectName": "MiCalculadora",
-      "projectPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
+      "projectPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
       "packagesPath": "C:\\Users\\Gabi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP1\\MiCalculadora\\obj\\",
+      "outputPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP1\\MiCalculadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP1\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP1\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP1\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP1\\Entidades\\Entidades.csproj"
             }
           }
         }
