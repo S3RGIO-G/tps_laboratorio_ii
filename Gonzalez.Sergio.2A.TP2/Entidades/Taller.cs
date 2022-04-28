@@ -19,9 +19,7 @@ namespace Entidades
         }
 
         #region "Constructores"
-        private Taller():this(0)
-        {         
-        }
+        private Taller() : this(0) { }
         public Taller(int espacioDisponible)
         {
             this.vehiculos = new List<Vehiculo>();
@@ -59,7 +57,7 @@ namespace Entidades
                 switch (tipo)
                 {
                     case ETipo.Ciclomotor:
-                        if(v.GetType().Name == "Ciclomotor")
+                        if (v.GetType().Name == "Ciclomotor")
                         {
                             sb.AppendLine(v.Mostrar());
                         }                        

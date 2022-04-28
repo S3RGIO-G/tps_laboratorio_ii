@@ -8,11 +8,7 @@ namespace Entidades
 {
     public class Ciclomotor : Vehiculo
     {
-        public Ciclomotor(EMarca marca, string chasis, ConsoleColor color)
-            : base(chasis, marca, color)
-        {
-           
-        }
+        public Ciclomotor(EMarca marca, string chasis, ConsoleColor color) : base(chasis, marca, color) { }
 
         /// <summary>
         /// Ciclomotor son 'Chico'
@@ -29,10 +25,9 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("\nCICLOMOTOR");
+            sb.AppendLine("CICLOMOTOR");
             sb.AppendLine(base.Mostrar());
-            sb.Append($"TAMAÑO: {this.Tamanio}");
-            sb.Append("\n---------------------");
+            sb.AppendLine("---------------------");
 
             return sb.ToString();
         }

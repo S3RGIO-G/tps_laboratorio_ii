@@ -9,7 +9,7 @@ namespace Entidades
     /// <summary>
     /// La clase Vehiculo no deberá permitir que se instancien elementos de este tipo.
     /// </summary>
-    public abstract class Vehiculo
+    public abstract class Vehiculo //Me tira warning porque no sobreescribí Equals y GetHashCode 
     {
         public enum EMarca
         {
@@ -53,7 +53,8 @@ namespace Entidades
             sb.AppendLine($"CHASIS: {p.chasis}\r");
             sb.AppendLine($"MARCA : {p.marca}\r");
             sb.AppendLine($"COLOR : {p.color}\r");
-            sb.Append("---------------------");
+            sb.AppendLine("---------------------\n");
+            sb.Append($"TAMAÑO: {p.Tamanio}");            
 
             return sb.ToString();
         }
@@ -76,7 +77,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator !=(Vehiculo v1, Vehiculo v2)
         {
-            return !(v1.chasis == v2.chasis);
+            return !(v1 == v2);
         }
     }
 }

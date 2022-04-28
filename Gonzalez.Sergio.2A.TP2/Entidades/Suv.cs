@@ -8,10 +8,8 @@ namespace Entidades
 {
     public class Suv : Vehiculo 
     {
-        public Suv(EMarca marca, string chasis, ConsoleColor color)
-            : base(chasis, marca, color)
-        {
-        }
+        public Suv(EMarca marca, string chasis, ConsoleColor color) : base(chasis, marca, color){ }
+
         /// <summary>
         /// SUV son 'Grande'
         /// </summary>
@@ -27,10 +25,9 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("\nSUV");
+            sb.AppendLine("SUV");
             sb.AppendLine(base.Mostrar());
-            sb.Append($"TAMAÑO: {this.Tamanio}");
-            sb.Append("\n---------------------");
+            sb.AppendLine("---------------------");
 
             return sb.ToString();
         }
