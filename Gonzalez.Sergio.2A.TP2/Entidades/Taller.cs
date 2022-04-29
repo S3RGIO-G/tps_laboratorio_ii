@@ -57,19 +57,19 @@ namespace Entidades
                 switch (tipo)
                 {
                     case ETipo.Ciclomotor:
-                        if (v.GetType().Name == "Ciclomotor")
+                        if (v is Ciclomotor)
                         {
                             sb.AppendLine(v.Mostrar());
                         }                        
                         break;
                     case ETipo.Sedan:
-                        if (v.GetType().Name == "Sedan")
+                        if (v is Sedan)
                         {
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
                     case ETipo.SUV:
-                        if (v.GetType().Name == "Suv")
+                        if (v is Suv)
                         {
                             sb.AppendLine(v.Mostrar());
                         }

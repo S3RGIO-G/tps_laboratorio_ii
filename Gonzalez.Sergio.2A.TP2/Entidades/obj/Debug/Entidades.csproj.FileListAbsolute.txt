@@ -17,3 +17,9 @@ C:\Users\Gabi\OneDrive\Escritorio\TP-02\Entidades\obj\Debug\Entidades.csproj.Ass
 C:\Users\Gabi\OneDrive\Escritorio\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Gabi\OneDrive\Escritorio\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\Gabi\OneDrive\Escritorio\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\Entidades\bin\Debug\Entidades.dll
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\Entidades\obj\Debug\Entidades.dll
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\Entidades\obj\Debug\Entidades.pdb

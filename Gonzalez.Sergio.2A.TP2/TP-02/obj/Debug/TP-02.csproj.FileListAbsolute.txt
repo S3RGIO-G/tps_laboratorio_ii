@@ -31,3 +31,13 @@ C:\Users\Gabi\OneDrive\Escritorio\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompile
 C:\Users\Gabi\OneDrive\Escritorio\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\Gabi\OneDrive\Escritorio\TP-02\TP-02\obj\Debug\TP-02.exe
 C:\Users\Gabi\OneDrive\Escritorio\TP-02\TP-02\obj\Debug\TP-02.pdb
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\bin\Debug\TP-02.exe.config
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\bin\Debug\TP-02.exe
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\bin\Debug\TP-02.pdb
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\bin\Debug\Entidades.dll
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\bin\Debug\Entidades.pdb
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\obj\Debug\TP-02.csproj.AssemblyReference.cache
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\obj\Debug\TP-02.exe
+C:\Users\Gabi\OneDrive\Escritorio\Gonzalez.Sergio.2A.TP2\TP-02\obj\Debug\TP-02.pdb
