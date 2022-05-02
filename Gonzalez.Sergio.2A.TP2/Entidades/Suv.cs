@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public sealed class Suv : Vehiculo 
+    public class Suv : Vehiculo 
     {
         public Suv(EMarca marca, string chasis, ConsoleColor color) : base(chasis, marca, color){ }
 
@@ -20,7 +20,10 @@ namespace Entidades
                 return ETamanio.Grande;
             }
         }
-
+        /// <summary>
+        /// Muestra los datos reutilizando el metodo de la base
+        /// </summary>
+        /// <returns></returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

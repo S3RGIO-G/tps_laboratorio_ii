@@ -40,7 +40,10 @@ namespace Entidades
                 return ETamanio.Mediano;
             }
         }
-
+        /// <summary>
+        /// Muestra los datos reutilizando el metodo de la base
+        /// </summary>
+        /// <returns></returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
