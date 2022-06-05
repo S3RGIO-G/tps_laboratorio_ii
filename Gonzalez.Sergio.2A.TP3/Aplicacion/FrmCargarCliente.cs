@@ -29,14 +29,31 @@ namespace Aplicacion
             this.Close();
         }
 
+        /// <summary>
+        /// Carga el registro de clientes al listBox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmCargarCliente_Load(object sender, EventArgs e)
         {
-            foreach (Cliente item in lista)
+            try
             {
-                lstRegistroClientes.Items.Add(item.ToString());
+                foreach (Cliente item in lista)
+                {
+                    lstRegistroClientes.Items.Add(item.ToString());
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("ERROR al cargar la lista de clientes", "ERROR");
             }
         }
 
+        /// <summary>
+        /// Selecciona el cliente solo si es diferente al cliente actual
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSeleccionar_Click(object sender, EventArgs e)
         {
             int indice = lstRegistroClientes.SelectedIndex;
@@ -53,7 +70,11 @@ namespace Aplicacion
                 }
             }
         }
-
+        /// <summary>
+        /// Elimina el cliente seleccionado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             int indice = lstRegistroClientes.SelectedIndex;
@@ -65,6 +86,11 @@ namespace Aplicacion
             }
         }
 
+        /// <summary>
+        /// Busca a un cliente por DNI
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnBuscarPorDni_Click(object sender, EventArgs e)
         {
             if(!string.IsNullOrEmpty(txtBuscarPorDni.Text) && lista != null)
@@ -87,7 +113,11 @@ namespace Aplicacion
                 }
             }
         }
-
+        /// <summary>
+        /// Envia el cliente seleccionado al Form de modificacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnModificar_Click(object sender, EventArgs e)
         {
             int indice = this.lstRegistroClientes.SelectedIndex;

@@ -1,1 +1,80 @@
-[{"Nombre":"Ryzen 5 5600x","Marca":"AMD","Tipo":"Procesador","Precio":200.5},{"Nombre":"AB350-m","Marca":"Gigabyte","Tipo":"MotherBoard","Precio":80.7},{"Nombre":"i5 12600KF","Marca":"Intel","Tipo":"Procesador","Precio":180.9},{"Nombre":"RX 6600xt","Marca":"AMD","Tipo":"GPU","Precio":350.9},{"Nombre":"Disco Solido 512gb","Marca":"Team","Tipo":"SSD","Precio":120.5},{"Nombre":"Fuente 500w","Marca":"ThermalTake","Tipo":"PSU","Precio":100.25},{"Nombre":"RTX 3060ti","Marca":"NVIDIA","Tipo":"GPU","Precio":450.75},{"Nombre":"Gabinete MATREXX 55","Marca":"DeepCool","Tipo":"Case","Precio":90.78},{"Nombre":"Memoria 8gb 2666mhz","Marca":"Kingston","Tipo":"RAM","Precio":35.24},{"Nombre":"Memoria 16gb 3200mhz","Marca":"Team","Tipo":"RAM","Precio":60.66},{"Nombre":"Ryzen 3 3200g","Marca":"AMD","Tipo":"Procesador","Precio":130.45},{"Nombre":"Fuente 700w","Marca":"Gigabyte","Tipo":"PSU","Precio":220.15},{"Nombre":"RTX 3050","Marca":"Asrock","Tipo":"GPU","Precio":300.23}]
+[
+  {
+    "Nombre": "Ryzen 5 5600x",
+    "Marca": "AMD",
+    "Tipo": "Procesador",
+    "Precio": 200.5
+  },
+  {
+    "Nombre": "AB350-m",
+    "Marca": "Gigabyte",
+    "Tipo": "MotherBoard",
+    "Precio": 80.7
+  },
+  {
+    "Nombre": "i5 12600KF",
+    "Marca": "Intel",
+    "Tipo": "Procesador",
+    "Precio": 180.9
+  },
+  {
+    "Nombre": "RX 6600xt",
+    "Marca": "AMD",
+    "Tipo": "GPU",
+    "Precio": 350.9
+  },
+  {
+    "Nombre": "Disco Solido 512gb",
+    "Marca": "Team",
+    "Tipo": "SSD",
+    "Precio": 120.5
+  },
+  {
+    "Nombre": "Fuente 500w",
+    "Marca": "ThermalTake",
+    "Tipo": "PSU",
+    "Precio": 100.25
+  },
+  {
+    "Nombre": "RTX 3060ti",
+    "Marca": "NVIDIA",
+    "Tipo": "GPU",
+    "Precio": 450.75
+  },
+  {
+    "Nombre": "Gabinete MATREXX 55",
+    "Marca": "DeepCool",
+    "Tipo": "Case",
+    "Precio": 90.78
+  },
+  {
+    "Nombre": "Memoria 8gb 2666mhz",
+    "Marca": "Kingston",
+    "Tipo": "RAM",
+    "Precio": 35.24
+  },
+  {
+    "Nombre": "Memoria 16gb 3200mhz",
+    "Marca": "Team",
+    "Tipo": "RAM",
+    "Precio": 60.66
+  },
+  {
+    "Nombre": "Ryzen 3 3200g",
+    "Marca": "AMD",
+    "Tipo": "Procesador",
+    "Precio": 130.45
+  },
+  {
+    "Nombre": "Fuente 700w",
+    "Marca": "Gigabyte",
+    "Tipo": "PSU",
+    "Precio": 220.15
+  },
+  {
+    "Nombre": "RTX 3050",
+    "Marca": "Asrock",
+    "Tipo": "GPU",
+    "Precio": 300.23
+  }
+]

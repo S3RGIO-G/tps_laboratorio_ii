@@ -35,7 +35,11 @@ namespace Aplicacion
                 this.btnUsarPuntos.Enabled = false;
             }
         }
-
+        /// <summary>
+        /// Usa los puntos que el cliente tenga para descontarlo al total de la compra
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnUsarPuntos_Click(object sender, EventArgs e)
         {
             if(MessageBox.Show("¿Seguro que deseas usar los puntos?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -53,6 +57,11 @@ namespace Aplicacion
             this.Close();
         }
 
+        /// <summary>
+        /// si se confirma la compra, se suman los puntos ganados y se actualiza el historial de compra del cliente. Ademas se emite un ticket
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("¿Estas seguro que deseas confirmar la compra?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -69,6 +78,7 @@ namespace Aplicacion
                 this.DialogResult = DialogResult.OK;
             }
         }
+
         private void CargarInformacion()
         {
             this.txtClienteActualNombre.Text = venta.Usuario.Nombre;
@@ -111,6 +121,9 @@ namespace Aplicacion
             }
         }
 
+        /// <summary>
+        /// Agrega los productos del carrio al historial del cliente
+        /// </summary>
         private void ActualizarHistorialDelCliente()
         {
             foreach (Producto item in venta.Carrito)

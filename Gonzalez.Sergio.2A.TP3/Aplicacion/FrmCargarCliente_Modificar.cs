@@ -30,6 +30,12 @@ namespace Aplicacion
             this.txtApellido.Text = cliente.Apellido;
             this.cmbTipo.SelectedItem = cliente.Tipo;
         }
+
+        /// <summary>
+        /// Confirma la modificacion del hecha al cliente
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("¿Estas seguro que quieres modificar el cliente?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)

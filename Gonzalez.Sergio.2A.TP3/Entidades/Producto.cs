@@ -34,7 +34,7 @@ namespace Entidades
         /// <returns></returns>
         string IMostrar.MostrarInformacion()
         {
-            return $"Nombre: {this.nombre} - Marca: {this.Marca} - Tipo: {this.tipo} - Precio: $ {this.precio}";
+            return $" Nombre: {this.nombre} - Marca: {this.Marca} - Tipo: {this.tipo} - Precio: {this.precio : $0.##}";
         }
 
         /// <summary>

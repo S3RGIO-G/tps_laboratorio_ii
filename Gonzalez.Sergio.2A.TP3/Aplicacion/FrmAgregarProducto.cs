@@ -31,6 +31,11 @@ namespace Aplicacion
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Confirma la seleccion del producto
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if(cmbProducto.SelectedIndex > -1)
@@ -46,6 +51,11 @@ namespace Aplicacion
             this.Close();
         }
 
+        /// <summary>
+        /// Carga el catalogo de productos al comboBox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmAgregarProducto_Load(object sender, EventArgs e)
         {
             try
@@ -61,6 +71,11 @@ namespace Aplicacion
             }            
         }
 
+        /// <summary>
+        /// Actualiza los datos de los TextBox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cmbProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
             int indice = cmbProducto.SelectedIndex;

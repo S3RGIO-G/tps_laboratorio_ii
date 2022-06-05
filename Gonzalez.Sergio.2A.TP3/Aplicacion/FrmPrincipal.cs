@@ -33,6 +33,11 @@ namespace Aplicacion
 
         #region Eventos del Formulario
 
+        /// <summary>
+        /// Agrega un nuevo cliente 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnNuevoCliente_Click(object sender, EventArgs e)
         {
             FrmNuevoCliente frmNuevoCliente = new FrmNuevoCliente();
@@ -43,6 +48,11 @@ namespace Aplicacion
                 this.venta.Usuario = frmNuevoCliente.Cliente;
             }
         }
+        /// <summary>
+        /// Despliega el panel para seleccionar/modificar/eliminar un usuario ya existente
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCargarCliente_Click(object sender, EventArgs e)
         {
             if (clientes.Count > 0)
@@ -69,6 +79,11 @@ namespace Aplicacion
                 MessageBox.Show("No hay ningun cliente cargado en el registro", "Atencion");
             }
         }
+        /// <summary>
+        /// Despliega una ventana para seleccionar el producto que queremos agregar al carrito
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregarProducto_Click(object sender, EventArgs e)
         {
             if(venta.Usuario is not null)
@@ -87,7 +102,11 @@ namespace Aplicacion
                 MessageBox.Show("Primero tenes que ingresar un cliente", "Atención");
             }
         }
-
+        /// <summary>
+        /// Borra el item del carrito seleccionado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnBorrar_Click(object sender, EventArgs e)
         {
             if(this.lstCarrito.SelectedIndex != -1)
@@ -97,12 +116,23 @@ namespace Aplicacion
                 this.AcutalizarTotalCarrito();
             }
         }
+        /// <summary>
+        /// Borra todos los items del carrito
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnBorrarTodo_Click(object sender, EventArgs e)
         {
             this.lstCarrito.Items.Clear();
             this.venta.Carrito.Clear();
             this.AcutalizarTotalCarrito();
         }
+
+        /// <summary>
+        /// Despliega la ventana para confirmar la compra
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFinalizarCompra_Click(object sender, EventArgs e)
         {
             if(this.venta.Carrito.Count > 0)
@@ -120,19 +150,36 @@ namespace Aplicacion
                 MessageBox.Show("Primero agregue algun producto al carrito", "Atencion");
             }
         }
+        /// <summary>
+        /// Ejecuta el evento FormClosing
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+        /// <summary>
+        /// Pregunta si se desea salir, en caso de aceptar, guarda el registro de clientes y catalogo de productos en la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.GuardarLista();
+        {            
             if (MessageBox.Show("¿Estas seguro que deseas salir?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 e.Cancel = true;
             }
+            else
+            {
+                this.GuardarLista();
+            }            
         }
-
+        /// <summary>
+        /// Cambia el orden del historial, dependiendo el criterio que se elija
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cmbOrdenarHistorial_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -146,7 +193,11 @@ namespace Aplicacion
                 MessageBox.Show("Lo siento, no se pudo ordenar la lista", "Atencion");
             }
         }
-
+        /// <summary>
+        /// Despliega la ventana para agregar/modificar/eliminar productos del catalogo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGestionarCatalogo_Click(object sender, EventArgs e)
         {
             if(venta.Carrito.Count == 0)
@@ -174,7 +225,6 @@ namespace Aplicacion
             this.AcutalizarTotalCarrito();
             this.ActualizarHistorial(cliente.HistorialDeCompra);
         }
-
         private void ActualizarHistorial(List<Producto> lista)
         {
             this.lstHistorialCompras.Items.Clear();
@@ -214,7 +264,9 @@ namespace Aplicacion
             this.lstHistorialCompras.Items.Clear();
             this.lstCarrito.Items.Clear();
         }
-
+        /// <summary>
+        /// Guarda el registro de clientes y el catalogo de productos en la base de datos
+        /// </summary>
         private void GuardarLista()
         {
             try
@@ -234,6 +286,9 @@ namespace Aplicacion
                 MessageBox.Show(e.Message, "ERROR");
             }
         }
+        /// <summary>
+        /// Carga el registro de clientes y el catalogo de productos de la base datos
+        /// </summary>
         private void ActualizarLista()
         {
             try

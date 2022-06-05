@@ -21,7 +21,11 @@ namespace Aplicacion
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Guarda el producto dependiendo si se presionó "Agregar" o "Modificar"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (Persona.VerificarStringSoloLetras(this.txtNombre.Text) && Persona.VerificarStringSoloLetras(this.txtMarca.Text) && Persona.VerificarStringSoloLetras(this.txtTipo.Text) &&  float.TryParse(this.txtPrecio.Text, out float precio))
@@ -49,7 +53,11 @@ namespace Aplicacion
         {
             this.Close();
         }
-
+        /// <summary>
+        /// Carga los datos del producto si es que esta cargado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmGestionarCatalogo_AgregarOEditar_Load(object sender, EventArgs e)
         {
             if(producto is not null)

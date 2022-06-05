@@ -163,6 +163,9 @@ namespace Aplicacion
             this.Controls.Add(this.txtTipo);
             this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.txtNombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmGestionarCatalogo_AgregarOEditar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmGestionarCatalogo_AgregarOEditar";

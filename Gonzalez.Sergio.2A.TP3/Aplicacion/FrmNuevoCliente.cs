@@ -33,6 +33,11 @@ namespace Aplicacion
 
         public List<Cliente> Lista { get => this.lista; set => this.lista = value; }
 
+        /// <summary>
+        /// Agrega un nuevo cliente solo si el dni no coincide con el de otro ya cargado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if(Persona.VerificarStringSoloLetras(txtNombre.Text) && Persona.VerificarStringSoloLetras(txtApellido.Text) && Persona.VerificarStringSoloNumeros(txtDni.Text))
@@ -58,7 +63,7 @@ namespace Aplicacion
         {
             this.Close();
         }
-
+        
         private void txtDni_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
