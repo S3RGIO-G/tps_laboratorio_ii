@@ -1,0 +1,11 @@
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\bin\Debug\net5.0\BibliotecaException.deps.json
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\bin\Debug\net5.0\BibliotecaException.dll
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\bin\Debug\net5.0\ref\BibliotecaException.dll
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\bin\Debug\net5.0\BibliotecaException.pdb
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\BibliotecaException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\BibliotecaException.AssemblyInfoInputs.cache
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\BibliotecaException.AssemblyInfo.cs
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\BibliotecaException.csproj.CoreCompileInputs.cache
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\BibliotecaException.dll
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\ref\BibliotecaException.dll
+C:\Users\Gabi\source\repos\Gonzalez.Sergio.2A.TP3\BibliotecaException\obj\Debug\net5.0\BibliotecaException.pdb
