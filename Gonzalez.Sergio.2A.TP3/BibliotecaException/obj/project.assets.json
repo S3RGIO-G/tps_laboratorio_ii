@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\BibliotecaException\\BibliotecaException.csproj",
+      "projectUniqueName": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\BibliotecaException\\BibliotecaException.csproj",
       "projectName": "BibliotecaException",
-      "projectPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\BibliotecaException\\BibliotecaException.csproj",
+      "projectPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\BibliotecaException\\BibliotecaException.csproj",
       "packagesPath": "C:\\Users\\Gabi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\BibliotecaException\\obj\\",
+      "outputPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\BibliotecaException\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

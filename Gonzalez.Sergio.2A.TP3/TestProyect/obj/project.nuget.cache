@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kXa+yd6gP35gv9hA9NDTr/oPknYIwqWQiJ4EdngKdPiILh659MBHIepva64nwQmVkL0haUbnNgzbAlNkupo/4Q==",
+  "dgSpecHash": "yehGzoyCB5UsOPtlYBNIlbpu/S34SISHC7NDyuy1uCDoqA6hUfZUIaofw194lwq1Hgv2vnzYp1IoTVGbi6tTIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\TestProyect\\TestProyect.csproj",
+  "projectFilePath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\TestProyect\\TestProyect.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabi\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Gabi\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

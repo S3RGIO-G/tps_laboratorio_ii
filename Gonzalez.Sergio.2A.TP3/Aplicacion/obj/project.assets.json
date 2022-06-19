@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\Gabi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\Aplicacion\\obj\\",
+      "outputPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -75,8 +75,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Gabi\\source\\repos\\Gonzalez.Sergio.2A.TP3\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Gabi\\OneDrive\\Escritorio\\tps_laboratorio_ii\\Gonzalez.Sergio.2A.TP3\\Entidades\\Entidades.csproj"
             }
           }
         }

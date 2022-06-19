@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <Nombre>Sergio</Nombre>
+    <Apellido>Gonzalez</Apellido>
+    <Dni>12345678</Dni>
+    <Puntos>27</Puntos>
+    <Tipo>Premium</Tipo>
+    <HistorialDeCompra>
+      <Producto>
+        <Nombre>Disco Solido 512gb</Nombre>
+        <Marca>Team Group</Marca>
+        <Tipo>SSD</Tipo>
+        <Precio>120.5</Precio>
+      </Producto>
+      <Producto>
+        <Nombre>Ryzen 3 3200g</Nombre>
+        <Marca>AMD</Marca>
+        <Tipo>Procesador</Tipo>
+        <Precio>130.45</Precio>
+      </Producto>
+      <Producto>
+        <Nombre>RTX 3050</Nombre>
+        <Marca>Zotac</Marca>
+        <Tipo>GPU</Tipo>
+        <Precio>300.23</Precio>
+      </Producto>
+    </HistorialDeCompra>
+  </Cliente>
+  <Cliente>
+    <Nombre>Pedro</Nombre>
+    <Apellido>Perez</Apellido>
+    <Dni>98765432</Dni>
+    <Puntos>0</Puntos>
+    <Tipo>NoPremium</Tipo>
+    <HistorialDeCompra />
+  </Cliente>
+</ArrayOfCliente>
